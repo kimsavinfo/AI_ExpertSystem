@@ -26,4 +26,4 @@ concernant les polygones, mais plutôt de comprendre la logique d’un système 
 De plus, j’ai apporté un soin particulier à créer un système expert le plus générique possible afin de pouvoir
 le réutiliser plus tard pour n’importe quel autre projet.
 
-![ScreenShot](imgs/uml.PNG)
+![ScreenShot](imgs/uml.png)
