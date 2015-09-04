@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HumanInterface" Collapsed="true">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAABAAAAAAQIAAAAAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>HumanInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IClear" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IClear.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InferenceEngine" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAAQAAAABAAAAAAAAAEIAAIKAAAACAAAACAAAQ=</HashCode>
+      <FileName>InferenceEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoolFact" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIACAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoolFact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fact" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAADAAAAEABAAIAAUEACAAQAAEAAAAIAA=</HashCode>
+      <FileName>Fact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factfactory" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIAAAAAAQAAAIAAAAAAAIAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Factfactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactsBase" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <InheritanceLine Type="IClear" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="1.812" />
+        <Point X="11.5" Y="2.375" />
+        <Point X="10.25" Y="2.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAAAAABAAAAAAAAAAAAABAAAAAACgAAAAEQAA=</HashCode>
+      <FileName>FactsBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntFact" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAABAAAAAAAAAEAAAAAQAAAAAA=</HashCode>
+      <FileName>IntFact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rule" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAEAIAAAABAAABAAAAgAEAABAAABEAAAAACA=</HashCode>
+      <FileName>Rule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RulesBase" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAgAYACAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>RulesBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleTuple" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAEAAAAEAEEAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>RuleTuple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IToString" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IToString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="String_Lib" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>String_Lib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
