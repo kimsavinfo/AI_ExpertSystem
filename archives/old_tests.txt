@@ -1,0 +1,93 @@
+/* TEST 6
+string factStr = "Ordre=3(Quel est l'ordre ?)" ;
+cout << factStr + "\n";
+
+Factfactory* factFactory = new Factfactory();
+IFact* newFact = factFactory->createFact(factStr);
+if(newFact != NULL)
+{
+	cout << "=> " 
+		+ newFact->getName() 
+		+ "=" + to_string(newFact->getValue() )
+		+ "("  + newFact->getQuestion() + ")";
+}
+
+factStr = "TEST=7357()" ;
+cout << "\n"+ factStr + "\n";
+newFact = factFactory->createFact(factStr);
+if(newFact != NULL)
+{
+	cout << "=> " 
+		+ newFact->getName() 
+		+ "=" + to_string(newFact->getValue() )
+		+ "(" + newFact->getQuestion() + ")";
+}
+
+factStr = "Droit(La figure a-t-elle au moins un angle droit ?)" ;
+cout << "\n"+ factStr + "\n";
+newFact = factFactory->createFact(factStr);
+if(newFact != NULL)
+{
+	cout << "=> " 
+		+ newFact->getName() 
+		+ "(" + newFact->getQuestion() + ")";
+}
+*/
+
+/* TEST 5
+IFact* intFact = NULL;
+intFact = new IntFact("Triangle", 3, "Quel est l'ordre ?");
+if( typeid(*intFact) == typeid(IntFact) )
+{
+	cout << "ok";
+}
+else
+{
+	cout << "ko";
+}
+
+if( typeid(*intFact) == typeid(BoolFact) )
+{
+	cout << "ko";
+}
+else
+{
+	cout << "ok";
+}
+*/
+
+/* TEST 4
+HumanInterface* ihm = new HumanInterface();
+ihKatherineMcBride->askIntValue("Test int only ?");
+ihKatherineMcBride->askBoolValue("Test bool only ?");
+*/
+
+/* TEST 3
+vector<IFact*> premisesTest;
+premisesTest.push_back( new BoolFact("Triangle", true, "") );
+premisesTest.push_back( new IntFact("Cotes Egaux", 2, "Combien la figure a-t-elle de côtés égaux ?") );
+BoolFact* conclusionTest = new BoolFact("Triangle Isocèle", true, "");
+Rule* ruleTest = new Rule(premisesTest, conclusionTest, "R3");
+cout << ruleTest->toString();
+*/
+
+/* TEST 2
+IntFact* intFact = new IntFact("Triangle", 3, "Quel est l'ordre ?");
+BoolFact* boolFact = new BoolFact("Triangle Rectangle", true, "La figure a-t-elle au moins un angle droit ?");
+
+FactsBase* factsBase = new FactsBase();
+factsBase->addFact(intFact);
+factsBase->addFact(boolFact);
+cout << "A fact found : " << to_string(factsBase->getFactValue("Triangle")) << "\n";
+cout << "Unknown fact : " << to_string(factsBase->getFactValue("Triangle isocele")) << "\n";
+*/
+
+/* TEST 1
+IntFact* intFact = new IntFact("Triangle", 3, "Quel est l'ordre ?");
+cout << intFact->toString() + "\n";
+
+BoolFact* boolFact = new BoolFact("Triangle Rectangle", true, "La figure a-t-elle au moins un angle droit ?");
+cout << boolFact->toString() + "\n";
+BoolFact* boolFact2 = new BoolFact("Triangle Rectangle", false, "La figure n a pas d angle droit ?");
+cout << boolFact2->toString() + "\n";
+*/
